@@ -19,6 +19,7 @@
                     <a href="?pg=galeria">GALERIA</a>
                     <a href="?pg=faleconosco">CONTATO</a>
                     <a href="?pg=matricula">MATRICULE-SE</a>
+                    <a href="?pg=admin/login">LOGIN</a>
                 </div>
             </td>
         </thead>

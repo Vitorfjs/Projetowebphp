@@ -1,4 +1,4 @@
-<h1>Login</h1>
+<h1 style="font: icon; font-size:35px;">Login</h1>
 
 <form action="acesso2.php" method="post">
     <label>Usuário:</label>
@@ -7,7 +7,6 @@
     <label>Senha:</label>
     <input type="password" class="form-control" name="senha" placeholder="Senha">
     <br>
-    <div style="text-decoration-color: white;">
-        <button style="background-color: black;" type="submit" name="Entrar">
-    </div>
+    <br>
+    <input type="submit" name="Entrar">
 </form>
