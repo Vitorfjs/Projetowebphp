@@ -16,7 +16,7 @@
                 <h2>R$360,00</h2>
                 <p>Semestral</p>
     
-                <a href="">CONTRATAR AGORA</a>
+                <a href="matricula.php">CONTRATAR AGORA</a>
             </td>
 
             <td></td>
@@ -33,7 +33,7 @@
                 <h2>R$540,00</h2>
                 <p>Semestral</p>
 
-                <a href="">CONTRATAR AGORA</a>
+                <a href="matricula.php">CONTRATAR AGORA</a>
             </td>
 
             <td></td>
@@ -47,7 +47,7 @@
                     Funcional: <strong>R$45,00</strong><br>
                     Muay Thai: <strong>R$69,90</strong>
                 </p>
-                <a href="">CONTRATAR AGORA</a>
+                <a href="matricula.php">CONTRATAR AGORA</a>
             </td>
         </tbody>
     </table>
