@@ -15,5 +15,4 @@
             setcookie("senha",$senha);
             header("Location: index.php");
         }
-    //}
 ?>
