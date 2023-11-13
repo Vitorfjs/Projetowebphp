@@ -25,15 +25,11 @@
                         
                 <h2>R$540,00<small class="flight">/semestral</small></h2>
                         
-                <a class="contratar" href="">CONTRATAR AGORA</a>
+                <a class="contratar" href="matricula.php">CONTRATAR AGORA</a>
             </div>
 
             <div class="individuais">
                 <h3>Individuais</h3>            
-    
-                <h2>Musculação: <strong>R$69,90</strong></h2>
-                
-                <h2>Dança: <strong>R$45,00</strong></h2>
 
                 <h2>Ritbox: <strong>R$45,00</strong></h2>
 
@@ -41,7 +37,7 @@
 
                 <h2>Muay Thai: <strong>R$69,90</strong></h2>
                         
-                <a class="contratar" href="">CONTRATAR AGORA</a>
+                <a class="contratar" href="matricula.php">CONTRATAR AGORA</a>
             </div>
         </div>
     </div>
