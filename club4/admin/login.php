@@ -1,6 +1,6 @@
 <h1 style="font: icon; font-size:35px;">Login</h1>
 
-<form action="acesso2.php" method="post">
+<form action="admin/acesso2.php" method="post">
     <label>Usuário:</label>
     <input type="text" class="form-control" name="usuario" placeholder="Usuário">
     <br>
@@ -10,8 +10,6 @@
     <br>
     <input type="submit" name="Entrar">
     <br>
-    <div>
-        <p>Para primeiro login: <a href="admin/primeiro.login.php">Registre-se</a></p>
-    </div>
+    <br>
     
 </form>

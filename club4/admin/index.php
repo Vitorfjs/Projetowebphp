@@ -1,8 +1,5 @@
 <?php
     include "config.inc.php";
-
-    require_once "valida_coo.inc.php";
-        
 ?>
 
 <title>Club4 - Admin</title>
