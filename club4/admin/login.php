@@ -9,4 +9,9 @@
     <br>
     <br>
     <input type="submit" name="Entrar">
+    <br>
+    <div>
+        <p>Para primeiro login: <a href="admin/primeiro.login.php">Registre-se</a></p>
+    </div>
+    
 </form>
