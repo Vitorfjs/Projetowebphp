@@ -1,20 +1,21 @@
 <div>
-<h1>FALE CONOSCO</h1>
-<h3>Entre em contato</h3>
-<form action="?pg=sucesso" method="post">
-    <label>Nome:</label>
-    <input type="text" name="nome"><br>
-    <label>Email:</label>
-    <input type="email" name="email"><br>
-    <label>Assunto:</label>
-    <select name="assunto">
-        <option value="Dúvidas">Dúvidas</option>
-        <option value="Sugestões">Sugestões</option>
-        <option value="Reclamações">Reclamações</option>
-    </select>
-    <br>
-    <label>Mensagem:</label>
-    <textarea name="mensagem"></textarea><br>
-    <input type="submit" value="Enviar">
-</form>
+    <h1>FALE CONOSCO</h1>
+    <h3>Entre em contato</h3>
+    
+    <form action="?pg=sucesso" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome"><br>
+        <label>Email:</label>
+        <input type="email" name="email"><br>
+        <label>Assunto:</label>
+        <select name="assunto">
+            <option value="Dúvidas">Dúvidas</option>
+            <option value="Sugestões">Sugestões</option>
+            <option value="Reclamações">Reclamações</option>
+        </select>
+        <br>
+        <label>Mensagem:</label>
+        <textarea name="mensagem"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
 </div>
