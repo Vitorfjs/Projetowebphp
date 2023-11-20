@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Club4</title>
+    <title>Club4 Academia</title>
 </head>
 
 <body>
@@ -25,8 +25,16 @@
             $var = "conteudo.php";
             include_once("$var");
         }else{
-            $pg = $_GET['pg'];
-            include_once("$pg.php");
+            // Verifica se 'pg' está definido e não é vazio
+            $pg = isset($_GET['pg']) ? $_GET['pg'] : '';
+
+            // Verifica se 'pg.php' existe antes de incluir
+            $pgArquivo = "{$pg}.php";
+            if ($pg && file_exists($pgArquivo)) {
+            include_once($pgArquivo);
+        } else {
+            echo "Arquivo não encontrado: {$pgArquivo}";
+            }
         }
 
         include_once("rodape.php");
