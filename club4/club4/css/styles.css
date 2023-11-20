@@ -1,0 +1,1442 @@
+/* Topo.php: Header/Navbar */
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .logo-mn{
+    padding: 15px 0px 20px 15px;
+}
+
+.header .navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat', sans-serif;;
+    font-size: 17px;
+    margin: 0 25px 0 25px;
+}
+
+.header .navbar a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+/*Conteudo.php: "Miolo" página inicial*/
+
+/*Imagem inicial de fundo*/
+.imgfundo img{
+    width: 100%;
+    height: 50%;
+    background-image: url(./img/fundo-club4.jpg);
+    background-size: 100%;
+}
+
+
+
+/*Porque nos escolher?*/
+.escolher{
+    background-color: #0a0a0a;
+    color: white;
+    padding: 80px 20px 40px 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.esctit{
+    text-align: center;
+}
+
+.esctit p{
+    color: yellow;
+    font-size: 20px;
+}
+
+.esctit h2{
+    font-weight: bold;
+    
+}
+
+.proposta{
+    margin: 60px;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prop1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prop1 img{
+    width: 75px;
+}
+
+.prop1 h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.prop2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prop2 img{
+    width: 75px;
+}
+
+.prop2 h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.prop3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prop3 img{
+    width: 75px;
+}
+
+.prop3 h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.prop4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prop4 img{
+    width: 75px;
+}
+
+.prop4 h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+
+/*O que oferecemos*/
+.oferecido{
+    background-color: #151515;
+    color: white;
+    padding: 70px 20px 70px 20px;
+    font-family: 'montserrat', sans-serif;;
+}
+
+.oferecido h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: center;
+    margin: 60px 60px 0px 60px;
+    padding: 0px 30px 0px 60px;
+}
+
+.ben1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ben1 img{
+    width: 90%;
+}
+
+.ben2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ben2 img{
+    width: 90%;
+}
+
+.ben3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ben3 img{
+    width: 90%;
+}
+
+
+
+/*Ofertas de aula*/
+.ofaulas{
+    background-color: white;
+    margin: 80px 100px 80px 100px;
+    font-family: 'montserrat', sans-serif;;
+}
+
+.ofaulas h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.exaulas{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px 70px 0px;
+    /*margin: 0px 50px 0 50px;*/
+}
+
+.exaula{
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.exaula .imgextra{
+    padding: 10px 20px 10px 20px ;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.exaula img{
+    width: 285px;
+    height: 170px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.exaula h3{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    width: 100%;
+    height: 40px;
+    background-color: #ffad12;
+}
+
+.exaula#desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.exaula#desc p{
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 170px;
+    -webkit-line-clamp: 8;
+    white-space: normal;
+    text-align: left;
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.exaula#desc a{
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 16px;
+    margin-top: 15px;
+    color: #1c1c1c!important;
+    font-size: 13px;
+}
+
+.exaula#desc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+    
+}
+
+.exaula#desc1 p{
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 170px;
+    -webkit-line-clamp: 8;
+    white-space: normal;
+    text-align: left;
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.exaula#desc1 a{
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 16px;
+    margin-top: 15px;
+    color: #1c1c1c!important;
+    font-size: 13px;
+    padding: 27px 0px 10px 0px;
+}
+
+.exaula#desc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+    
+}
+
+.exaula#desc2 p{
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 170px;
+    -webkit-line-clamp: 8;
+    white-space: normal;
+    text-align: left;
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.exaula#desc2 a{
+    margin: 27px 0px 15px 0px;
+    border: 2px solid #1c1c1c!important;
+    color: #1c1c1c!important;
+    font-size: 13px!important;
+    line-height: 18px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 315px;
+    padding: 12px 18px;
+    border-radius: 26px;
+    border: 0;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 16px;
+    margin-top: 15px;
+    color: #1c1c1c!important;
+    font-size: 13px;
+}
+
+.exaula#desc2 a:hover{
+    margin: 27px 0px 15px 0px;
+    border: 2px solid #1c1c1c!important;
+    background-color: #1c1c1c;
+    font-size: 13px!important;
+    line-height: 18px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 315px;
+    padding: 12px 18px;
+    border-radius: 26px;
+    border: 0;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 16px;
+    margin-top: 15px;
+    color: #ffffff!important;
+    font-size: 13px;
+}
+
+
+
+/*Imagem final da home*/
+.imgfundo2 img{
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/salvacao.jpg);
+    background-size: 100%;
+}
+
+
+
+/*Escolher Unidade e "App" da Academia*/
+.conectividade{
+    background-color: white;
+    font-family: 'montserrat', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 80px 20px 80px 20px;
+}
+
+.conectividade h2, h3{
+    font-weight: bold;
+}
+
+
+
+.unidform{
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unidform p{
+    font-size: 18px;
+}
+
+
+
+/*Quemsomos.php*/
+.qmsomos{
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qmdesc{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qmdesc h1{
+    color: yellow;
+    font-weight: bold;
+}
+
+.qmdesc p{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.qmvideo{
+    margin: 0px 200px 0px 200px;
+}
+
+
+
+/*Aulas.php - Planos, aulas e horários*/
+
+/*Cards de PLanos*/
+.plaulas{
+    padding: 80px 20px 80px 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.plantit{
+    font-weight: bold;
+}
+
+.plancards{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.pmoviment {
+    color: white;
+    position: relative;
+    width: 300px;
+    /*height: 254px;*/
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.pmoviment h3{
+    text-align: center;
+    color: yellow;
+}
+  
+.pmoviment h2{
+    text-align: center;
+    font-size: 23px;
+}
+  
+.pmoviment .flight{
+    font-weight: lighter;
+}
+  
+.pmoviment::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -5px;
+    margin: auto;
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ffad12;
+    /*background: linear-gradient(-45deg, #ffff1c 0%, #fcff40 100% );*/
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.pmoviment::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fff700 0%, #dede00 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+  
+.pmoviment .contratar {
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+  
+.pmoviment .contratar {
+    background: #ffff00;
+    box-shadow: 0 0 25px #fbff00;
+}
+  
+.pmoviment .contratar:hover {
+    box-shadow: 0 0 5px #fbff00,
+                0 0 25px #fbff00,
+                0 0 50px #fbff00,
+                0 0 100px #fbff00;
+}
+
+.pplus {
+    color: white;
+    position: relative;
+    width: 300px;
+    /*height: 254px;*/
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.pplus h3{
+    text-align: center;
+    color: yellow;
+}
+  
+.pplus h2{
+    text-align: center;
+    font-size: 23px;
+}
+  
+.pplus .flight{
+    font-weight: lighter;
+}
+  
+.pplus::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -5px;
+    margin: auto;
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ffad12;
+    /*background: linear-gradient(-45deg, #ffff1c 0%, #fcff40 100% );*/
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.pplus::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fff700 0%, #dede00 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+  
+.pplus .contratar {
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+  
+.pplus .contratar {
+    background: #ffff00;
+    box-shadow: 0 0 25px #fbff00;
+}
+  
+.pplus .contratar:hover {
+    box-shadow: 0 0 5px #fbff00,
+                0 0 25px #fbff00,
+                0 0 50px #fbff00,
+                0 0 100px #fbff00;
+}
+
+.individuais {
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.individuais h3{
+    text-align: center;
+    color: yellow;
+}
+  
+.individuais h2{
+    text-align: center;
+    font-size: 15px;
+}
+  
+.individuais .flight{
+    font-weight: lighter;
+}
+  
+.individuais::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -5px;
+    margin: auto;
+    width: 310px;
+    height: 410px;
+    border-radius: 10px;
+    background-color: #ffad12;
+    /*background: linear-gradient(-45deg, #ffff1c 0%, #fcff40 100% );*/
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.individuais::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fff700 0%, #dede00 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+}
+  
+.individuais .contratar {
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+  
+.individuais .contratar {
+    background: #ffff00;
+    box-shadow: 0 0 25px #fbff00;
+}
+  
+.individuais .contratar:hover {
+    box-shadow: 0 0 5px #fbff00,
+                0 0 25px #fbff00,
+                0 0 50px #fbff00,
+                0 0 100px #fbff00;
+}
+
+
+
+/*Tabela de inclusão de cada plano*/
+.plinc{
+    margin: 20px 20px 20px 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.plinc h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-responsive{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Tabela de horários*/
+
+/*Organização da Tabela*/
+.plhor{
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.plhor h2{
+    font-weight: bold;
+}
+
+.divtabhor{
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabhor{
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(-68deg, #000 , #000);
+}
+
+.tabhor td, th{
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+.tabhor .column100 {
+    width: 130px;
+    padding-left: 25px;
+}
+
+.tabhor .column100.column1 {
+    width: 200px;
+    padding-left: 42px;
+}
+
+.tabhor .row100.head th {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.tabhor .row100 td {
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+/*Estilização da Tabela*/
+.tabhor td{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.tabhor .column100.column1 {
+    font-weight: bold;
+}
+
+.tabhor th {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: yellow;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.tabhor .row100:hover td {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.tabhor .hov-column-ver6 {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.tabhor .row100 td:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+
+/* Faleconosco.php */
+.divfale{
+    margin: 80px 0px 80px 0px;
+}
+
+.divfale h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.formfale {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formfale p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formfale .user-box {
+    position: relative;
+}
+  
+.formfale .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.formfale .user-box input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+.formfale .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.formfale .user-box input:focus ~ label,
+.formfale .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formfale form input[type=submit] {
+    background: #000;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formfale input[type=submit]:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formfale input[type=submit] span {
+    position: absolute;
+    display: block;
+}
+  
+.formfale input[type=submit] span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formfale p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formfale input[type=submit].a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formfale input[type=submit].a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* Matricula.php */
+.divcadas{
+    margin: 80px 0px 80px 0px;
+}
+
+.formcadas {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formcadas p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formcadas .user-box {
+    position: relative;
+}
+  
+.formcadas .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  
+.formcadas .user-box input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.formcadas .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+  
+.formcadas .user-box input:focus ~ label,
+.formcadas .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formcadas form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formcadas a:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formcadas a span {
+    position: absolute;
+    display: block;
+}
+  
+.formcadas a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formcadas p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formcadas a.a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formcadas a.a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* club4/admin/login.php */
+.divlogin{
+    margin: 80px 0px 80px 0px;
+}
+
+.formlogin {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formlogin p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formlogin .user-box {
+    position: relative;
+}
+  
+.formlogin .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  
+.formlogin .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.formlogin .user-box input:focus ~ label,
+.formlogin .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formlogin form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formlogin a:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formlogin a span {
+    position: absolute;
+    display: block;
+}
+  
+.formlogin a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formlogin p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formlogin a.a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formlogin a.a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* Rodape.php */
+.footer{
+    background-color: black;
+    width:100%;
+    color: white;
+    font-family: 'montserrat', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer{
+    margin: 50px 0px 50px 0px;
+}
+
+.redes-sociais{
+    margin: 0px 0px 50px 0px;
+}
+
+.redes-sociais h2{
+    text-align: center;
+}
+
+.redes-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contato-footer{
+    margin: px 0px 0px 0px;
+    text-align: center;
+    font-size: 15px;
+}
