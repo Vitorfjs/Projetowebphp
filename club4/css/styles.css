@@ -194,7 +194,7 @@
 /*Ofertas de aula*/
 .ofaulas{
     background-color: white;
-    padding: 80px 20px 40px 20px;
+    margin: 80px 100px 80px 100px;
     font-family: 'montserrat', sans-serif;;
 }
 
@@ -206,8 +206,8 @@
 .exaulas{
     display: flex;
     justify-content: space-between;
-    padding: 70px 20px 70px 20px;
-    margin: 0px 300px 0 300px;
+    padding: 70px 0px 70px 0px;
+    /*margin: 0px 50px 0 50px;*/
 }
 
 .exaula{
@@ -461,6 +461,8 @@
 
 
 /*Aulas.php - Planos, aulas e horários*/
+
+/*Cards de PLanos*/
 .plaulas{
     padding: 80px 20px 80px 20px;
     font-family: 'montserrat', sans-serif;
@@ -723,4 +725,718 @@
                 0 0 25px #fbff00,
                 0 0 50px #fbff00,
                 0 0 100px #fbff00;
+}
+
+
+
+/*Tabela de inclusão de cada plano*/
+.plinc{
+    margin: 20px 20px 20px 20px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.plinc h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-responsive{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Tabela de horários*/
+
+/*Organização da Tabela*/
+.plhor{
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.plhor h2{
+    font-weight: bold;
+}
+
+.divtabhor{
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabhor{
+    border-radius: 16px;
+    overflow: hidden;
+    background: linear-gradient(-68deg, #000 , #000);
+}
+
+.tabhor td, th{
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+.tabhor .column100 {
+    width: 130px;
+    padding-left: 25px;
+}
+
+.tabhor .column100.column1 {
+    width: 200px;
+    padding-left: 42px;
+}
+
+.tabhor .row100.head th {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.tabhor .row100 td {
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+/*Estilização da Tabela*/
+.tabhor td{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.tabhor .column100.column1 {
+    font-weight: bold;
+}
+
+.tabhor th {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: yellow;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+.tabhor .row100:hover td {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.tabhor .hov-column-ver6 {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.tabhor .row100 td:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+
+/* Faleconosco.php */
+.divfale{
+    margin: 80px 0px 80px 0px;
+}
+
+.divfale h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.formfale {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formfale p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formfale .user-box {
+    position: relative;
+}
+  
+.formfale .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.formfale .user-box input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+.formfale .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.formfale .user-box input:focus ~ label,
+.formfale .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formfale form input[type=submit] {
+    background: #000;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formfale input[type=submit]:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formfale input[type=submit] span {
+    position: absolute;
+    display: block;
+}
+  
+.formfale input[type=submit] span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formfale input[type=submit] span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formfale p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formfale input[type=submit].a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formfale input[type=submit].a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* Matricula.php */
+.divcadas{
+    margin: 80px 0px 80px 0px;
+}
+
+.formcadas {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formcadas p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formcadas .user-box {
+    position: relative;
+}
+  
+.formcadas .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  
+.formcadas .user-box input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.formcadas .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+  
+.formcadas .user-box input:focus ~ label,
+.formcadas .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formcadas form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formcadas a:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formcadas a span {
+    position: absolute;
+    display: block;
+}
+  
+.formcadas a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formcadas a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formcadas p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formcadas a.a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formcadas a.a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* club4/admin/login.php */
+.divlogin{
+    margin: 80px 0px 80px 0px;
+}
+
+.formlogin {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    background: rgba(0,0,0,.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.formlogin p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+  
+.formlogin .user-box {
+    position: relative;
+}
+  
+.formlogin .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FFFF00;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+  
+.formlogin .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.formlogin .user-box input:focus ~ label,
+.formlogin .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+  
+.formlogin form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 3px
+}
+  
+.formlogin a:hover {
+    background: #FFFF00;
+    color: #272727;
+    border-radius: 5px;
+}
+  
+.formlogin a span {
+    position: absolute;
+    display: block;
+}
+  
+.formlogin a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #fff);
+    animation: btn-anim1 1.5s linear infinite;
+}
+  
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #fff);
+    animation: btn-anim2 1.5s linear infinite;
+    animation-delay: .375s
+}
+  
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+  
+    50%,100% {
+      top: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #fff);
+    animation: btn-anim3 1.5s linear infinite;
+    animation-delay: .75s
+}
+  
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+  
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+.formlogin a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #fff);
+    animation: btn-anim4 1.5s linear infinite;
+    animation-delay: 1.125s
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+  
+    50%,100% {
+      bottom: 100%;
+    }
+}
+  
+.formlogin p:last-child {
+    color: #aaa;
+    font-size: 14px;
+}
+  
+.formlogin a.a2 {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.formlogin a.a2:hover {
+    background: transparent;
+    color: #FFFF00;
+    border-radius: 5px;
+}
+
+
+
+/* Rodape.php */
+.footer{
+    background-color: black;
+    width:100%;
+    color: white;
+    font-family: 'montserrat', sans-serif;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer{
+    margin: 50px 0px 50px 0px;
+}
+
+.redes-sociais{
+    margin: 0px 0px 50px 0px;
+}
+
+.redes-sociais h2{
+    text-align: center;
+}
+
+.redes-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contato-footer{
+    margin: px 0px 0px 0px;
+    text-align: center;
+    font-size: 15px;
 }

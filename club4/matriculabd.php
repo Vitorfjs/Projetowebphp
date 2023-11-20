@@ -8,10 +8,11 @@
     $cpf = $_REQUEST['cpf'];
     $data_de_nascimento = $_REQUEST['data_de_nascimento'];
     $telefone = $_REQUEST['telefone'];
+    $genero = $_REQUEST['genero'];
 
 
-    $sql = "INSERT INTO teste (nome, sobrenome, email, cpf, data_de_nascimento, telefone) 
-            VALUES ('$nome', '$sobrenome', '$email', '$cpf', '$data_de_nascimento', '$telefone')";
+    $sql = "INSERT INTO teste (nome, sobrenome, email, cpf, data_de_nascimento, telefone, genero) 
+            VALUES ('$nome', '$sobrenome', '$email', '$cpf', '$data_de_nascimento', '$telefone', '$genero')";
 
     $insert = mysqli_query($conn, $sql);
 
@@ -19,8 +20,8 @@
         echo "Ocorreu um erro ao inserir no banco de dados. <br>
         <a href = 'matricula.php'>Voltar</a>";
     } else {
-        echo "<h3>Cadastrada com sucesso!</h3><br>";
-        echo "<a href='index.php'>Continuar</a>";
+        header("Location: confirma.php");
+        exit();
     }
 
 ?>

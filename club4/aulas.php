@@ -13,7 +13,7 @@
                         
                 <h2>R$360,00<small class="flight">/semestral</small></h2>
                         
-                <a class="contratar" href="">CONTRATAR AGORA</a>
+                <a class="contratar" href="matricula.php">CONTRATAR AGORA</a>
             </div>
 
             <div class="pplus">
@@ -30,6 +30,10 @@
 
             <div class="individuais">
                 <h3>Individuais</h3>            
+        
+                <h2>Musculação: <strong>R$69,90</strong></h2>
+                
+                <h2>Dança: <strong>R$45,00</strong></h2>
 
                 <h2>Ritbox: <strong>R$45,00</strong></h2>
 
@@ -45,125 +49,127 @@
     <br><br><br><br>
 
     <!--O que é incluso-->
-    <div align="center">
-        <table>
-            <tbody>
+    <div class="plinc">
+
+        <h2>Compare os planos</h2>
+
+        <div class="table-responsive">
+            <table class="table text-center" style="max-width: 960px;">
+                <thead>
                 <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Club4 Moviment</th>
+                    <th style="width: 22%;">Club4 Plus</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row" class="text-start">Musculação</th>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Funcional</th>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                </tr>
+                </tbody>
+
+                <tbody>
+                <tr>
+                    <th scope="row" class="text-start">Dança</th>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
                     <td></td>
-
-                    <td align="center">
-                        <h3>Club4 <b>Moviment</b></h3>
-                        <p>Fique forte e aprenda a dançar.</p>
-                    </td>
-
-                    <td align="center">
-                        <h3>Club4<b>+</b></h3>
-                        <p>Perfeito para fortalecer e aprender<br>a se defender.</p>
-                    </td>
-                </tr>    
-
-                <td align="center">
-                    <p>Musculação</p>
-                    <p>Funcional</p>
-                    <p>Dança</p>
-                    <p>Ritbox</p>
-                    <p>Muay Thai</p>
-                </td>
-                
-                <td align="center">
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/notmark.png" alt="Not Mark" width="30px">
-                </td>
-
-                <td align="center">
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px"><br>
-                    <img src="./img/notmark.png" alt="Not Mark" width="30px"><br>
-                    <img src="./img/notmark.png" alt="Not Mark" width="30px"><br>
-                    <img src="./img/checkmark.png" alt="Check Mark" width="30px">
-                </td>
-            </tbody>
-        </table>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Ritbox</th>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Muay Thai</th>
+                    <td></td>
+                    <td><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 4.685l-16.327 17.315-7.673-9.054.761-.648 6.95 8.203 15.561-16.501.728.685z"/></svg></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 
-    <br><br><br>
-
     <!--Horários-->
-    <div align="center">
+    <div class="plhor">
+
         <h2>Horários das Aulas</h2>
 
-        <div>
-            <table>
+        <div class="divtabhor">
+            <table class="tabhor">
                 <thead>
-                    <tr>
+                    <tr class="row100 head">
                         <th><!--Espaço Vazio--></th>
-                        <th>Domingo</th>
-                        <th>Segunda</th>
-                        <th>Terça</th>
-                        <th>Quarta</th>
-                        <th>Quinta</th>
-                        <th>Sexta</th>
-                        <th>Sábado</th>
+                        <th class="column100">Domingo</th>
+                        <th class="column100">Segunda</th>
+                        <th class="column100">Terça</th>
+                        <th class="column100">Quarta</th>
+                        <th class="column100">Quinta</th>
+                        <th class="column100">Sexta</th>
+                        <th class="column100">Sábado</th>
                     </tr>
                 </thead>
 
                 <tbody>
-                    <tr>
-                        <td><h5>Musculação</h5></td>
-                        <td>09h - 12h</td>
-                        <td>05h - 22h</td>
-                        <td>05h - 22h</td>
-                        <td>05h - 22h</td>
-                        <td>05h - 22h</td>
-                        <td>05h - 22h</td>
-                        <td>08h - 13h</td>
+                    <tr class="row100">
+                        <td class="column100 column1">Musculação</td>
+                        <td class="column100">09h - 12h</td>
+                        <td class="column100">05h - 22h</td>
+                        <td class="column100">05h - 22h</td>
+                        <td class="column100">05h - 22h</td>
+                        <td class="column100">05h - 22h</td>
+                        <td class="column100">05h - 22h</td>
+                        <td class="column100">08h - 13h</td>
                     </tr>
 
-                    <tr>
-                        <td><h5>Funcional</h5></td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>05h30</td>
-                        <td>20h</td>
-                        <td>05h30<br>19h</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>05h30<br>19h</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
+                    <tr class="row100">
+                        <td class="column100 column1">Funcional</td>
+                        <td class="column100">--</td>
+                        <td class="column100">05h30</td>
+                        <td class="column100">20h</td>
+                        <td class="column100">05h30 e 19h</td>
+                        <td class="column100">--</td>
+                        <td class="column100">05h30 e 19h</td>
+                        <td class="column100">--</td>
                     </tr>
 
-                    <tr>
-                        <td><h5>Dança</h5></td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>18h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>18h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>18h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
+                    <tr class="row100">
+                        <td class="column100 column1">Dança</td>
+                        <td class="column100">--</td>
+                        <td class="column100">18h20</td>
+                        <td class="column100">--</td>
+                        <td class="column100">18h20</td>
+                        <td class="column100">--</td>
+                        <td class="column100">18h20</td>
+                        <td class="column100">--</td>
                     </tr>
 
-                    <tr>
-                        <td><h5>Ritbox</h5></td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>19h10</td>
-                        <td>19h10</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>19h10</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
+                    <tr class="row100">
+                        <td class="column100 column1">Ritbox</td>
+                        <td class="column100">--</td>
+                        <td class="column100">19h10</td>
+                        <td class="column100">19h10</td>
+                        <td class="column100">--</td>
+                        <td class="column100">19h10</td>
+                        <td class="column100">--</td>
+                        <td class="column100">--</td>
                     </tr>
 
-                    <tr>
-                        <td><h5>Muay Thai</h5></td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>20h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>20h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
-                        <td>20h20</td>
-                        <td><img src="./img/notmark.png" alt="Not Mark" width="30px"></td>
+                    <tr class="row100">
+                        <td class="column100 column1">Muay Thai</td>
+                        <td class="column100">--</td>
+                        <td class="column100">20h20</td>
+                        <td class="column100">--</td>
+                        <td class="column100">20h20</td>
+                        <td class="column100">--</td>
+                        <td class="column100">20h20</td>
+                        <td class="column100">--</td>
                     </tr>
                 </tbody>
             </table>
