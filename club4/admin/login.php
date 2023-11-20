@@ -22,13 +22,13 @@
                     <label for="senha">Senha</label>
                     
                 </div>
-                <a href="#">
+                <button type="submit">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Entrar
-                </a>
+                </button>
             </form>
 
             <p>Para primeiro login: <a href="admin/primeiro.login.php" class="a2">Registre-se</a></p>
