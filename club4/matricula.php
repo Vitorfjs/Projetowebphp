@@ -32,13 +32,14 @@
                     </label>
                 </div>
                 <br>
-                <a href="#">
+                <br>
+                <button type="submit">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Cadastrar
-                </a>
+                </button>
             </form>
         </div>
     </div>
