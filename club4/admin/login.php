@@ -1,3 +1,12 @@
+<?php
+    // Se houver um erro, exiba a mensagem correspondente
+    if (isset($_GET['error']) && $_GET['error'] == 1) {
+        echo "<script>
+                alert('Login e/ou senha incorretos');
+                window.location.href = 'http://localhost/php.vitor2/Projetowebphp_novo/club4/?pg=admin/login';
+            </script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
