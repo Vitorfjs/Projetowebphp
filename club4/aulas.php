@@ -30,6 +30,7 @@
 
             <div class="individuais">
                 <h3>Individuais</h3>            
+
         
                 <h2>Musculação: <strong>R$69,90</strong></h2>
                 
