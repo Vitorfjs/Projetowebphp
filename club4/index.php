@@ -25,8 +25,16 @@
             $var = "conteudo.php";
             include_once("$var");
         }else{
-            $pg = $_GET['pg'];
-            include_once("$pg.php");
+            // Verifica se 'pg' está definido e não é vazio
+            $pg = isset($_GET['pg']) ? $_GET['pg'] : '';
+
+            // Verifica se 'pg.php' existe antes de incluir
+            $pgArquivo = "{$pg}.php";
+            if ($pg && file_exists($pgArquivo)) {
+            include_once($pgArquivo);
+        } else {
+            echo "Arquivo não encontrado: {$pgArquivo}";
+            }
         }
 
         include_once("rodape.php");

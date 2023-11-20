@@ -34,4 +34,6 @@
     <br>
     <br>
     <input type="submit" name="Cadastrar">
+    <br>
+    <br>
 </form>
