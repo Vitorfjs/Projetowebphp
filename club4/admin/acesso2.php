@@ -11,16 +11,12 @@
     $linha = mysqli_fetch_assoc($query);
 
     if ($linha && password_verify($senhaDigitada, $linha['senha'])) {
-    // Senha correta, redirecionar para a página principal
-    header("Location: ../admin/index.php");
-    exit();
+        // Senha correta, redirecionar para a página principal
+        header("Location: ../admin/index.php");
+        exit();
     } else {
-        $mensagemErro = "Login e/ou senha incorretos: $login | $senhaDigitada";
-    echo "<script language='javascript' type='text/javascript'>
-    alert('$mensagemErro'); 
-    </script>";
-
-    header("Refresh: 0; url=login.php");
-    exit();
+        // Se o login/senha estiver incorreto, redirecionar para a página de login com uma mensagem de erro
+        header("Location: login.php?error=1");
+        exit();
     }
 ?>
