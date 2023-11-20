@@ -43,6 +43,9 @@ while($dados = mysqli_fetch_array($busca)){
     <br>
     <br>
     <input type="submit" name="Cadastrar">
+    <br>
+    <br>
+    <a href="listar.php">Voltar</a>
 </form>
 <?php
 }
