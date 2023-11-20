@@ -1,16 +1,14 @@
 <?php
 
-    // Conexão com servidor MySQL
-    $conexao = mysqli_connect("localhost","root","");
-    
-    // Conexão com o BD MySQL
-    $db = mysqli_select_db($conexao,"club4");
+// Conexão com servidor MySQL
+$conn = mysqli_connect("127.0.0.1","root","");
+// Conexão com o BD MYSQL
+$db = mysqli_select_db($conn,"academia");
 
-    //Teste conexão
-    if($conexao){
-        echo "Conexão estabelicida com sucesso.";
-    }else{
-        echo "Erro na conexão com banco de dados.";
-    }
+if($conn){
+    echo "Conexão estabelecida com sucesso.";
+}else{
+    echo "Erro na conexão com banco de dados.";
+}
 
 ?>

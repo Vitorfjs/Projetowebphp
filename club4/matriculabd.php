@@ -1,6 +1,6 @@
 <?php
 
-    include_once('../config.inc.php');
+    include_once('config.inc.php');
 
     $nome = $_REQUEST['nome'];
     $sobrenome = $_REQUEST['sobrenome'];
@@ -20,8 +20,7 @@
         echo "Ocorreu um erro ao inserir no banco de dados. <br>
         <a href = 'matricula.php'>Voltar</a>";
     } else {
-        header("Location: ../confirma.php");
-        "<a href = 'admin/index.php'>Voltar</a>";
+        header("Location: confirma.php");
         exit();
     }
 
