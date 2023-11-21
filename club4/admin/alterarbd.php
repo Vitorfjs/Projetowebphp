@@ -4,7 +4,6 @@
 $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : null;
 
 // Verificação de ID
-echo "ID: $id <br>";
 
 $nome = $_REQUEST['nome'];
 $sobrenome = $_REQUEST['sobrenome'];
