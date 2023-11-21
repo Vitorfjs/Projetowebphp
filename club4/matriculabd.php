@@ -17,11 +17,15 @@
     $insert = mysqli_query($conn, $sql);
 
     if(!$insert){
-        echo "Ocorreu um erro ao inserir no banco de dados. <br>
-        <a href = 'matricula.php'>Voltar</a>";
+        echo "<script>
+        alert('Ocorreu um erro');
+        window.location.href = 'http://localhost/php.vitor2/Projetowebphp_novo/club4/index.php?pg=matricula';
+        </script>";
     } else {
-        header("Location: confirma.php");
-        exit();
+        echo "<script>
+        alert('Enviado com sucesso!');
+        window.location.href = 'http://localhost/php.vitor2/Projetowebphp_novo/club4/index.php?pg=matricula';
+        </script>";
     }
 
 ?>

@@ -7,13 +7,13 @@
 }
 
 .header .logo-mn{
-    padding: 15px 0px 20px 15px;
+    margin: 20px 0px 20px 15px;
 }
 
 .header .navbar a{
     text-decoration: none;
     color: white;
-    font-family: 'montserrat', sans-serif;;
+    font-family: 'montserrat', sans-serif;
     font-size: 17px;
     margin: 0 25px 0 25px;
 }
@@ -1098,7 +1098,8 @@
     font-size: 12px;
 }
   
-.formcadas form a {
+.formcadas form button[type=submit] {
+    background: #000;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -1113,18 +1114,18 @@
     letter-spacing: 3px
 }
   
-.formcadas a:hover {
+.formcadas button[type=submit]:hover {
     background: #FFFF00;
     color: #272727;
     border-radius: 5px;
 }
   
-.formcadas a span {
+.formcadas button[type=submit] span {
     position: absolute;
     display: block;
 }
   
-.formcadas a span:nth-child(1) {
+.formcadas button[type=submit] span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -1143,7 +1144,7 @@
     }
 }
   
-.formcadas a span:nth-child(2) {
+.formcadas button[type=submit] span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -1163,7 +1164,7 @@
     }
 }
   
-.formcadas a span:nth-child(3) {
+.formcadas button[type=submit] span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -1183,7 +1184,7 @@
     }
 }
   
-.formcadas a span:nth-child(4) {
+.formcadas button[type=submit] span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -1208,12 +1209,12 @@
     font-size: 14px;
 }
   
-.formcadas a.a2 {
+.formcadas button[type=submit].a2 {
     color: #fff;
     text-decoration: none;
 }
   
-.formcadas a.a2:hover {
+.formcadas button[type=submit].a2:hover {
     background: transparent;
     color: #FFFF00;
     border-radius: 5px;
@@ -1283,7 +1284,8 @@
     font-size: 12px;
 }
   
-.formlogin form a {
+.formlogin form button[type=submit] {
+    background: #000;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -1294,22 +1296,22 @@
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
+    margin-top: 10px;
     letter-spacing: 3px
 }
   
-.formlogin a:hover {
+.formlogin button[type=submit]:hover {
     background: #FFFF00;
     color: #272727;
     border-radius: 5px;
 }
   
-.formlogin a span {
+.formlogin button[type=submit] span {
     position: absolute;
     display: block;
 }
   
-.formlogin a span:nth-child(1) {
+.formlogin button[type=submit] span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -1328,7 +1330,7 @@
     }
 }
   
-.formlogin a span:nth-child(2) {
+.formlogin button[type=submit] span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -1348,7 +1350,7 @@
     }
 }
   
-.formlogin a span:nth-child(3) {
+.formlogin button[type=submit] span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -1368,7 +1370,7 @@
     }
 }
   
-.formlogin a span:nth-child(4) {
+.formlogin button[type=submit] span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -1393,12 +1395,12 @@
     font-size: 14px;
 }
   
-.formlogin a.a2 {
+.formlogin button[type=submit].a2 {
     color: #fff;
     text-decoration: none;
 }
   
-.formlogin a.a2:hover {
+.formlogin button[type=submit].a2:hover {
     background: transparent;
     color: #FFFF00;
     border-radius: 5px;

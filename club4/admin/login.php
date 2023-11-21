@@ -30,8 +30,6 @@
                     Entrar
                 </button>
             </form>
-
-            <p>Para primeiro login: <a href="admin/primeiro.login.php" class="a2">Registre-se</a></p>
         </div>
     </div>
 </section>
