@@ -346,7 +346,7 @@
 
 
 .divtabhor{
-    margin: 50px 0px 20px 0px;
+    margin: 50px 30px 20px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -425,7 +425,7 @@
     height: 60px;
     text-align: center;
     line-height: 3.5;
-    margin: 20px auto;
+    margin: 40px auto 20px;
     background: rgba(0,0,0,.9);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -442,8 +442,9 @@
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 3px
+    margin-top: 50px;
+    letter-spacing: 3px;
+    margin-right: 20px;
 }
   
 .linkvoltar:hover {
@@ -455,7 +456,7 @@
 
 /* Conteudo */
 .conteudolistrg{
-    margin: 0px 100px 0px 100px;
+    margin: 20px 100px 0px 100px;
     display: flex;
     justify-content: space-evenly;
 }

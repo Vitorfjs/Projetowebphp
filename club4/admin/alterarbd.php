@@ -23,12 +23,14 @@ $sql = "UPDATE teste SET nome = '$nome', sobrenome = '$sobrenome',
 $altera = mysqli_query($conn, $sql);
 
 if (!$altera) {
-    // Tratamento de Erros MySQL
-    echo "Erro MySQL: " . mysqli_error($conn) . "<br>";
-    echo "Ocorreu um erro ao atualizar dados no banco de dados. <br>
-    <a href='listar.php'>Voltar</a>";
+    echo "<script>
+        alert('Ocorreu um erro ao atualizar dados no banco de dados.');
+        window.location.href = 'listar.php';
+        </script>";
 } else {
-    echo "<h3>Atualizado com sucesso!</h3>
-    <a href='listar.php'>Voltar</a>";
+    echo "<script>
+    alert('Atualizado com sucesso!');
+    window.location.href = 'listar.php';
+    </script>";
 }
 ?>

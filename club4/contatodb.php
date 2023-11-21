@@ -21,10 +21,16 @@
 			$query = mysqli_query($conn,$dados);
 
 			if($query){
-				echo "<h4>Dados enviados com sucessso!</h4></center>
-                <a href = 'index.php'>Voltar</a>";
-		    }else{
-		    	echo "<center><h4>Não foi possível enviar o e-mail. <a href=index.php?pg=faleconosco>Tente novamente.</a></h4></center>";
+				echo "<script>
+				alert('Dados enviados com sucessso!');
+				window.location.href = 'index.php';
+				</script>";
+
+		    }else {
+		    	echo "<script>
+				alert('Não foi possível enviar o e-mail');
+				window.location.href = 'index.php';
+				</script>";
 		    }
 		?>
 		</div>
