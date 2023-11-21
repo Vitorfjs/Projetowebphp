@@ -31,13 +31,19 @@
             <div class="individuais">
                 <h3>Individuais</h3>            
 
+                <h2>Musculação: <strong>R$69,90</strong></h2>
+                
+                <h2>Dança: <strong>R$45,00</strong></h2>
+
                 <h2>Ritbox: <strong>R$45,00</strong></h2>
+
 
                 <h2>Funcional: <strong>R$45,00</strong></h2>
 
                 <h2>Muay Thai: <strong>R$69,90</strong></h2>
                         
                 <a class="contratar" href="matricula.php">CONTRATAR AGORA</a>
+
             </div>
         </div>
     </div>
