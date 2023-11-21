@@ -1,37 +1,46 @@
-<h1 style="font: icon; font-size:35px;">Cadastro</h1>
-<br>
-<form action="matriculabd.php" method="post">
-    <label>Nome:</label>
-    <input type="text" name="nome" placeholder="Digite seu nome" required>
-    <br>
-    <label>Sobrenome:</label>
-    <input type="text" name="sobrenome" placeholder="Seu sobrenome" required>
-    <br>
-    <label>E-mail:</label>
-    <input type="text" name="email" placeholder="Seu e-mail" required>
-    <br>
-    <label>CPF:</label>
-    <input type="text" name="cpf" placeholder="Seu CPF" required>
-    <br>
-    <label>Data de nascimento:</label>
-    <input type="date" name="data_de_nascimento" required>
-    <br>
-    <label>DDI
-        <select name="ddi">
-            <option value="+55">+55</option>
-        </select>
-    </label>
-    <label>Celular:</label>
-    <input type="text" name="telefone" placeholder="(XX) XXXX-XXXX" required>
-    <br>
-    <label>Gênero
-        <select name="genero">
-            <option value="masculino">Masculino</option>
-            <option value="feminino">Feminino</option>
-            <option value="outro">Outro</option>
-        </select>
-    </label>
-    <br>
-    <br>
-    <input type="submit" name="Cadastrar">
-</form>
+<section class="cadastro">
+    <div class="divcadas">
+        <div class="formcadas">
+            <p>Cadastro</p>
+            
+            <form class="" action="matriculabd.php" method="post">
+                <div class="user-box">
+                    <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="sobrenome" class="form-control" placeholder="Sobrenome" required>
+                </div>
+                <div class="user-box">
+                    <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="cpf" class="form-control" placeholder="CPF" required>
+                </div>
+                <div class="user-box">
+                    <input style="color-scheme: dark;" type="date" name="data_de_nascimento" class="form-control" placeholder="Data de Nascimento" required>
+                </div>
+                <div class="user-box telef">
+                    <input type="tel" name="telefone" class="form-control" placeholder="Celular" required>
+                </div>
+                <div class="user-box">
+                    <label>Gênero
+                        <select name="genero">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
+                <br>
+                <button type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Cadastrar
+                </button>
+            </form>
+        </div>
+    </div>
+</section>

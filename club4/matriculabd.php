@@ -8,19 +8,24 @@
     $cpf = $_REQUEST['cpf'];
     $data_de_nascimento = $_REQUEST['data_de_nascimento'];
     $telefone = $_REQUEST['telefone'];
+    $genero = $_REQUEST['genero'];
 
 
-    $sql = "INSERT INTO teste (nome, sobrenome, email, cpf, data_de_nascimento, telefone) 
-            VALUES ('$nome', '$sobrenome', '$email', '$cpf', '$data_de_nascimento', '$telefone')";
+    $sql = "INSERT INTO teste (nome, sobrenome, email, cpf, data_de_nascimento, telefone, genero) 
+            VALUES ('$nome', '$sobrenome', '$email', '$cpf', '$data_de_nascimento', '$telefone', '$genero')";
 
     $insert = mysqli_query($conn, $sql);
 
     if(!$insert){
-        echo "Ocorreu um erro ao inserir no banco de dados. <br>
-        <a href = 'matricula.php'>Voltar</a>";
+        echo "<script>
+        alert('Ocorreu um erro');
+        window.location.href = 'http://localhost/php.vitor2/Projetowebphp_novo/club4/index.php?pg=matricula';
+        </script>";
     } else {
-        echo "<h3>Cadastrada com sucesso!</h3><br>";
-        echo "<a href='index.php'>Continuar</a>";
+        echo "<script>
+        alert('Enviado com sucesso!');
+        window.location.href = 'http://localhost/php.vitor2/Projetowebphp_novo/club4/index.php?pg=matricula';
+        </script>";
     }
 
 ?>
